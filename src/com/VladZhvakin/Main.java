@@ -20,7 +20,7 @@ public class Main {
         while (count < 9 && !oWin && !xWin) {
 
             while (true) {
-                if(count%2==0)
+                if(count % 2 == 0)
                     System.out.println("X's makes move:");
                 else System.out.println("O's makes move:");
                 try {
